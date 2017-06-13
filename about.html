@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About - MADINAH FOODS</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/styleSheet.css">
+
+    <!-- Font awsome icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google-font -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">  
+
+    <!-- bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body class="page">
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar nav-opacity">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                      
+                </button>
+                <a class="navbar-brand nav-link" href="#"> Madinah Foods </a>
+            </div>     
+        
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link" href="index.html"> Home</a></li>
+                    <li class="active"><a class="nav-link" href="about.html"> About</a></li>
+                    <li><a class="nav-link" href="menu.html"> Menu </a></li>
+                    <li><a class="nav-link" href="reservation.html"> Reservations </a></li>
+                    <li><a class="nav-link" href="contact.html"> Contact </a></li>
+                    <li><a class="nav-link" href="#" style="border: 2px solid #fff !important;"> Hotel Booking </a></li>
+                    <!--<button class="btn btn-danger navbar-btn">Hotel Booking</button>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Parallax Starts -->
+    <div class="parallax2 parallax-position">
+        <div id="title" class="section" style="background-image:url(./images/background/header.jpg)">
+            <div class="parallaxbg"></div>
+            <div class="row parallaxText">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10">
+                    <h1 class="title hidden-xs">VALUE TO YOUR BUSINESS</h1>
+                    <h3 class="slogan hidden-xs">We have established precise and accurate methodologies with the highest international standards</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- About Section -->
+   <div class="container page-position2">  
+       <div class="row">
+           <div class="col-md-6 about">
+                <h2>A FEW WORDS ABOUT US</h2>  
+                <h4>MADINAH Foods Objectives</h4>  
+                <p>To provide catering services to businesses (B2B) for Hajj and Umrah pilgrims. To provide safe, quality, value for money food based on delegation and client needs for consumption by pilgrims during their stay in KSA.</p>
+                <p>Having initiated catering services to Hajj and Umrah pilgrims, the Company pledges to promote its services based on its long traditions and rich heritage in the catering industry, and to work tirelessly to maintain its mission and values.</p>            
+            </div>
+           <div class="col-md-6 about">
+              <h2> HAJJ & UMRAH CATERING SERVICES</h2>
+              <h4>in the Two Holy Cities of Makkah and Medinah</h4>
+              <div class="para">
+                  To know more about the services we offer as religious catering, visit the Hajj & Umrah Catering services in Madinah
+              </div>
+              <p>Through a recently established office in Madinah and dedicated team of managers working out of our central Riyadh production facility, we ensure the safe and timely supply of high-quality Halal meals meeting the rigorous requirements of the Ministry of the Hajj.</p>
+              <p> We are committed to constantly enhancing our products and expanding capacity to deal with future increases in visitor numbers.</p>
+              <p>To know more about the services we offer as religious catering, visit the Hajj & Umrah Catering website</p>
+           </div>
+       </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <!-- Image Gallery -->
+    <div class="container-fluid gallery" id="gallery">
+        <div class="col-sm-6">
+            <img src="images/slider/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-responsive">
+        </div>
+        <div class="col-sm-3">
+            <img src="images/slider/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow img-responsive">
+        </div>
+        <div class="col-sm-3">
+            <img src="images/slider/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow img-responsive">
+        </div>
+        <div class="col-sm-3">
+            <img src="images/slider/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow img-responsive">
+        </div>
+
+        <div class="col-sm-3">
+            <img src="images/slider/1.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow img-responsive">
+        </div>
+        <div class="col-sm-3">
+            <img src="images/slider/2.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow img-responsive">
+        </div>
+        <div class="col-sm-3">
+            <img src="images/slider/3.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow img-responsive">
+        </div>
+        <div class="col-sm-3">
+            <img src="images/slider/4.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow img-responsive">
+        </div>   
+    </div>
+
+    <div id="myModal" class="modal-gallery">
+        <span class="close-gallery" onclick="closeModal()">&times;</span>
+        <div class="modal-content-gallery">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/slider/1.jpg" class="img-responsive imgAlt" alt="food1" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/slider/2.jpg" class="img-responsive imgAlt" alt="food2" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/slider/3.jpg" class="img-responsive imgAlt" alt="food3" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/slider/4.jpg" class="img-responsive imgAlt" alt="food4" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/slider/1.jpg" class="img-responsive imgAlt" alt="food1" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/slider/2.jpg" class="img-responsive imgAlt" alt="food2" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/slider/3.jpg" class="img-responsive imgAlt" alt="food3" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/slider/4.jpg" class="img-responsive imgAlt" alt="food4" style="width:100%">
+            </div>
+
+
+            <a class="prev-img" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-img" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!--
+            <div class="column">
+                <img class="demo img-responsive" src="images/slider/1.jpg" onclick="currentSlide(1)" alt="Nature">
+            </div>
+
+            <div class="column">
+                <img class="demo img-responsive" src="images/slider/2.jpg" onclick="currentSlide(2)" alt="Trolltunga">
+            </div>
+
+            <div class="column">
+                <img class="demo img-responsive" src="images/slider/3.jpg" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+            <div class="column">
+                <img class="demo img-responsive" src="images/slider/4.jpg" onclick="currentSlide(4)" alt="Lights">
+            </div>
+            -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="col-sm-5 col-md-8">2017 &copy; copyrights-Madinah Catering Saudi Arabia</div>
+        <div class="icon col-sm-3 col-md-2">
+            <a href="facebook.com"><i class="fa fa-whatsapp" aria-hidden="true">  00966-(0)50-5435949</i></a>
+        </div>
+        <div class="icon col-sm-4 col-md-2">
+            <a href="mailto:labbaikbooking@gmail.com"><i class="fa fa-google" aria-hidden="true">  labbaikbooking@gmail.com</i></a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script> <!-- back to top -->
+    <script src="js/gallery.js"></script> <!-- img gallery -->
+</body>
+</html>
